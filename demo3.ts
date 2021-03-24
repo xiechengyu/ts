@@ -10,7 +10,7 @@ const xiaojiejie1: {
 
 const xiaojiejies: String[] = ["1", "2"]
 
-class Person { }
-const xiaojiejie2: Person = new Person()
+// class Person { }
+// const xiaojiejie2: Person = new Person()
 
 const kanxiaojiejie: () => string = () => { return "1" }

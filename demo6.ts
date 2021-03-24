@@ -13,4 +13,11 @@ let someValue: any = "this is a string";
 // let strLength: number = (<string>someValue).length;
 let strLength: number = (someValue as string).length;
 
+const numberarr: number[] = [1, 2, 3]
+const stringarr: Array<string> = ["1", "s"]
+const undefinedarr: Array<undefined> = [undefined, undefined]
+const numberstringarr: (number | string)[] = [1, 2, "ss"]
+const undefinenulldarr: Array<number | string> = [1, 2, "ss"]
+type lady = { name: string, age: number }//类型别名
+const ladys: lady = { name: "12", age: 22 }
 console.log(strLength)
